@@ -67,7 +67,7 @@ void parseMembers(char *inputString,cmd *cmd)
     int indexCmdMembersArg = 0;
     for (int i = 0 ; i < nbMembers ; ++i)
     {
-		
+
         	int stop = 0;
         	printf("\n  Chaine a pare :  %s", cmd->cmdMembers[i]);
 	    	char *tmp = cmd->cmdMembers[i];
