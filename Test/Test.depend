@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1516356694 source:/home/ubuntu/Bureau/Test/cmd.c
+	"cmd.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1513716114 /home/ubuntu/Bureau/Test/cmd.h
+
+1515659735 source:/home/ubuntu/Bureau/Test/main.c
+	<pwd.h>
+	<readline/readline.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<unistd.h>
+	"shell_fct.h"
+
+1451860149 /home/ubuntu/Bureau/Test/shell_fct.h
+	"cmd.h"
+
+1451858939 source:/home/ubuntu/Bureau/Test/shell_fct.c
+	"shell_fct.h"
+
